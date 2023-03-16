@@ -3,6 +3,7 @@
 
 ### custom ignore
 napi.type
+.idea
 
 ### Node ###
 # Logs
