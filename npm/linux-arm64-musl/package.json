@@ -1,0 +1,21 @@
+{
+  "name": "@kaishens.cn/snowflake-linux-arm64-musl",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "snowflake.linux-arm64-musl.node",
+  "files": [
+    "snowflake.linux-arm64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}

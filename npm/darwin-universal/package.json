@@ -1,0 +1,15 @@
+{
+  "name": "@kaishens.cn/snowflake-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "snowflake.darwin-universal.node",
+  "files": [
+    "snowflake.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
