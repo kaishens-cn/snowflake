@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kaishens-cn/snowflake/compare/v1.0.0...v1.0.1) (2023-03-17)
+
+
+### Tests
+
+* fix index require ([99ac7de](https://github.com/kaishens-cn/snowflake/commit/99ac7de108c6e63d559ddca0d8ef62a2451fc1ab))
+
 ## 1.0.0 (2023-03-17)
 
 
