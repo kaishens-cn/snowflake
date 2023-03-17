@@ -249,12 +249,12 @@ if (!nativeBinding) {
 const { snow_helper, snow_next } = nativeBinding
 
 class Snowflake {
-  constructor() {
+  constructor(dataCenterId, workerId) {
     this._self_ = {
       helper: snow_helper,
       next: snow_next,
     }
-    this._self_.helper(1, 1);
+    this._self_.helper(dataCenterId, workerId);
   }
 
   nextId() {

@@ -1,9 +1,9 @@
 import test from 'ava'
 
-import { Snowflake } from '../index.js'
+import { Snowflake } from '../index'
 
-test('sum from native', (t) => {
-  const snow = new Snowflake();
-  const res = snow.nextId();
+test('generate id', (t) => {
+  const snow = new Snowflake(1, 1);
+  snow.nextId();
   t.pass();
 })
