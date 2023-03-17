@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/kaishens-cn/snowflake/compare/v1.0.2...v1.0.3) (2023-03-17)
+
+
+### CI
+
+* change npm push ([16f53ae](https://github.com/kaishens-cn/snowflake/commit/16f53aeaa4f2609f08d1c0fbd768d8a7fbedcd93))
+
 ## [1.0.2](https://github.com/kaishens-cn/snowflake/compare/v1.0.1...v1.0.2) (2023-03-17)
 
 
