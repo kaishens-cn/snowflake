@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/kaishens-cn/snowflake/compare/v1.0.1...v1.0.2) (2023-03-17)
+
+
+### CI
+
+* add tags ci ([9c7336e](https://github.com/kaishens-cn/snowflake/commit/9c7336e006a5896d2dd72edd8d66a0d2229f497b))
+
 ## [1.0.1](https://github.com/kaishens-cn/snowflake/compare/v1.0.0...v1.0.1) (2023-03-17)
 
 
