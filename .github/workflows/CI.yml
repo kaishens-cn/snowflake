@@ -466,9 +466,6 @@ jobs:
       - universal-macOS
     steps:
       - uses: actions/checkout@v3
-      - name: Get version
-        id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -487,15 +484,9 @@ jobs:
         run: ls -R ./npm
         shell: bash
       - name: Publish
-        uses: actions/create-release@v1
         run: |
-          echo "$tag_name"
+          echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
 #          npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        with:
-          tag_name: ${{ steps.get_version.outputs.VERSION }}
-          release_name: ${{ steps.get_version.outputs.VERSION }}
-          draft: false
-          prerelease: false
