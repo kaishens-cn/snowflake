@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/kaishens-cn/snowflake/compare/v1.0.6...v1.0.7) (2023-03-23)
+
+
+### CI
+
+* test ([b0189ac](https://github.com/kaishens-cn/snowflake/commit/b0189ac29882aabc586e889814df5c7954d5bac8))
+
 ## [1.0.6](https://github.com/kaishens-cn/snowflake/compare/v1.0.5...v1.0.6) (2023-03-23)
 
 
